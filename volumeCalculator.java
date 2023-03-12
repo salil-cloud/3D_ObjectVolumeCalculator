@@ -81,7 +81,7 @@ class test_volumeCalculator { // Class to Calculate Volume
 	}
 
 	public double CylinderVolume() { // Method to calculate Cylinder volume
-		return (3.14 * ((radius * radius) * height));
+		return (Math.PI * ((radius * radius) * height));
 	}
 
 	public boolean IsCube() { // Method to Find out if Cuboid is also a cube with resp. to its dimensions
